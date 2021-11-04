@@ -57,7 +57,6 @@ function CompileHid(hid_code) {
             }
             if (hid_code[i] == "(" || hid_code[i] == ")" || hid_code[i] == "-" || hid_code[i] == "\"") {
                 likely = false;
-                console.log("degrade variable level")
             }
             
             place = place + hid_code[i];
@@ -88,7 +87,6 @@ function RunHid(str) {
     else if (ast.keyword == "new") {
         let name = ast.args[0]
         let value = ast.args[1]
-
         if (name == undefined || value == undefined) {
             console.log("hid.js:59: one or two values weren't supplied.")
         } else {
