@@ -1,0 +1,17 @@
+{
+  "name": "hid",
+  "version": "0.0.1",
+  "description": "Hid is a scalable embedded programming language",
+  "entry": "index.js",
+  "scripts": {
+    "test": "echo \"Test\""
+  },
+  "keywords": [
+    "programming"
+  ],
+  "author": "Kai D. Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
